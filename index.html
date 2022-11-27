@@ -1,0 +1,24 @@
+<html> 
+ <head> 
+  <title>Biodata</title> 
+ </head> 
+ <body> 
+  <h1>Nama : Rescy Febrianda</h1> 
+  <h2>NIM : 2201034 </h2> 
+  <h3>Prodi : Teknik Komputer (B)</h3> 
+  <h4>Alamat: Lhok Bengkuang Timur</h4> 
+  <h5>No.Hp : 082275179602</h5> 
+  <h6>Email: rescyfebrianda7@gmail.com</h6> <!-- copyright pebiaa--> 
+  <div id="clock"></div> 
+  <script>
+    setInterval(() => {
+      let date = new Date ()
+      let clock = document.getElementById('clock')
+      clock.innerHTML =
+      date.getHours()+":"+
+      date.getMinutes()+":"+
+      date.getSeconds()
+    }, 1000);
+  </script> 
+ </body>
+</html>
